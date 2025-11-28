@@ -129,7 +129,7 @@ export default function AntiBotGame({ requiredClicks = 3, timeLimit = 15, onPass
             <p className="text-red-600 font-semibold">Time's up — try again.</p>
             <div className="mt-3">
               <button
-                className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+                className="w-full max-w-xs px-6 py-3 rounded-full bg-blue-600 text-white text-lg font-semibold hover:bg-blue-700 transition-colors shadow-md"
                 onClick={() => {
                   // reset state
                   setCount(0);

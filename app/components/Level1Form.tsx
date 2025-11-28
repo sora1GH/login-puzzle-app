@@ -67,7 +67,10 @@ export default function Level1Form() {
         className="mb-4 w-full px-3 py-2 border rounded bg-gray-50 text-gray-800 placeholder-gray-500"
       />
 
-      <button type="submit" className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+      <button
+        type="submit"
+        className="w-full px-6 py-3 rounded-full bg-indigo-600 text-white text-lg font-semibold hover:bg-indigo-700 transition-colors shadow-md"
+      >
         Submit
       </button>
 
@@ -84,7 +87,7 @@ export default function Level1Form() {
       {showContinue && (
         <div className="mt-4">
           <button
-            className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700"
+            className="w-full px-6 py-3 rounded-full bg-green-600 text-white text-lg font-semibold hover:bg-green-700 transition-colors shadow-md"
             onClick={() => router.push('/level2')}
           >
             Continue
